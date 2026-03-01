@@ -26,6 +26,7 @@ import type {
   CreateInviteRequest,
   JoinSpaceResponse,
 } from '@/types/api'
+import { fetch } from '@/lib/fetch'
 
 // Default API base for backward compatibility
 const DEFAULT_API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8080/api/v1'
