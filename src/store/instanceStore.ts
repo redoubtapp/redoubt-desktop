@@ -14,6 +14,7 @@ import type {
 } from "@/types/instance";
 import { clearInstanceCredentials } from "@/lib/secureStorage";
 import { setInstanceUrlResolver, clearApiClient } from "@/lib/api";
+import { fetch } from "@/lib/fetch";
 
 interface InstanceState {
   // State
